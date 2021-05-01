@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Movies.Domain\Oscar.Domain.csproj" />
+    <ProjectReference Include="..\Oscar.CrossCutting\Oscar.CrossCutting.csproj" />
+    <ProjectReference Include="..\Oscar.Mediator\Oscar.Mediator.csproj" />
+  </ItemGroup>
+
+
+</Project>
