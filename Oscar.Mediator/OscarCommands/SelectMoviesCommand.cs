@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Oscar.Mediator.Commands
+namespace Oscar.Mediator.OscarCommands
 {
     public class SelectMoviesCommand : IRequest<Movie>
     {

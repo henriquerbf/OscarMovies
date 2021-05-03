@@ -3,11 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Oscar.Mediator.Commands
+namespace Oscar.Mediator.OscarCommands
 {
-    public class SelectMoviesCommandValidator : AbstractValidator<SelectMoviesCommand>
+    public class SelectMovieCommandValidator : AbstractValidator<SelectMoviesCommand>
     {
-        public SelectMoviesCommandValidator()
+        public SelectMovieCommandValidator()
         {
             //Todo Tratar erros
             //RuleFor(x => x.Id).NotNull();

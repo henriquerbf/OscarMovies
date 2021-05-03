@@ -1,14 +1,14 @@
 ﻿using MediatR;
-using Oscar.Mediator.Models;
+using Oscar.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Oscar.Mediator.Commands
+namespace Oscar.Mediator.OscarCommands
 {
     public class InsertMoviesCommand : IRequest
     {
-        public List<JsonMovies> jsonMovies { get; set; }
+        public List<JsonMovies> JsonMovies { get; set; }
 
     }
 }

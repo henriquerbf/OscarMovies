@@ -6,8 +6,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="marvel.json" />
+    <None Remove="marvel.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Movies.Domain\Oscar.Domain.csproj" />
     <ProjectReference Include="..\Movies.Services\Oscar.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="marvel.json" />
+    <Resource Include="marvel.xml" />
   </ItemGroup>
 
 </Project>

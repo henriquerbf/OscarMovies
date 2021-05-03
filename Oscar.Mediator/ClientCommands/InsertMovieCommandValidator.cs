@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Oscar.Mediator.Commands
+namespace Oscar.Mediator.ClientCommands
 {
-    class InsertMoviesCommandValidator
+    class InsertMovieCommandValidator
     {
     }
 }

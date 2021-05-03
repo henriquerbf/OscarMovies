@@ -8,7 +8,7 @@ using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Oscar_API.Controllers
+namespace Oscar.Mediator.Controllers
 {
     [Controller]
     public class BaseController : ControllerBase

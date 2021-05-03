@@ -5,15 +5,19 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oscar_API", "Movies_API\Oscar_API.csproj", "{0FD8AD75-7A4E-414A-9160-DE9C654B37F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscar.Domain", "Movies.Domain\Oscar.Domain.csproj", "{FDF08D30-819C-4652-947E-3525A274BBAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oscar.Domain", "Movies.Domain\Oscar.Domain.csproj", "{FDF08D30-819C-4652-947E-3525A274BBAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscar.Services", "Movies.Services\Oscar.Services.csproj", "{B9F0298C-69FD-425D-8EBA-8F07147C052A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oscar.Services", "Movies.Services\Oscar.Services.csproj", "{B9F0298C-69FD-425D-8EBA-8F07147C052A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscar_Console", "Oscar_Console\Oscar_Console.csproj", "{CC23F325-B7A2-4312-B778-DF89A3AE4216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oscar_Console", "Oscar_Console\Oscar_Console.csproj", "{CC23F325-B7A2-4312-B778-DF89A3AE4216}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscar.Mediator", "Oscar.Mediator\Oscar.Mediator.csproj", "{411B57C0-095F-4138-975F-F69602DD2CF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oscar.Mediator", "Oscar.Mediator\Oscar.Mediator.csproj", "{411B57C0-095F-4138-975F-F69602DD2CF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscar.CrossCutting", "Oscar.CrossCutting\Oscar.CrossCutting.csproj", "{0C0617DB-4C06-4553-B6B3-0383700F835A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oscar.CrossCutting", "Oscar.CrossCutting\Oscar.CrossCutting.csproj", "{0C0617DB-4C06-4553-B6B3-0383700F835A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_API", "Client_API\Client_API.csproj", "{4BEDE4C1-53F2-4940-932F-2869CF4BF260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Services", "Client.Services\Client.Services.csproj", "{FF3F2460-DD93-48E1-9B35-B3D606044D02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{0C0617DB-4C06-4553-B6B3-0383700F835A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C0617DB-4C06-4553-B6B3-0383700F835A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C0617DB-4C06-4553-B6B3-0383700F835A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BEDE4C1-53F2-4940-932F-2869CF4BF260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEDE4C1-53F2-4940-932F-2869CF4BF260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BEDE4C1-53F2-4940-932F-2869CF4BF260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BEDE4C1-53F2-4940-932F-2869CF4BF260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF3F2460-DD93-48E1-9B35-B3D606044D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF3F2460-DD93-48E1-9B35-B3D606044D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF3F2460-DD93-48E1-9B35-B3D606044D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF3F2460-DD93-48E1-9B35-B3D606044D02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

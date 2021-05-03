@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Oscar.Services
+namespace Oscar.Domain.Interfaces
 {
     public interface IMovieService
     {

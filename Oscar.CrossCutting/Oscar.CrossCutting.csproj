@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Client.Services\Client.Services.csproj" />
     <ProjectReference Include="..\Oscar.Mediator\Oscar.Mediator.csproj" />
   </ItemGroup>
 

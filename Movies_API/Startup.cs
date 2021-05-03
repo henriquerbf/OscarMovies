@@ -8,13 +8,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Oscar.Mediator;
-using Oscar.Mediator.Commands;
 using Oscar.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Oscar.CrossCutting;
+using Oscar.Mediator.ClientCommands;
 
 namespace Oscar_API
 {
@@ -31,7 +31,7 @@ namespace Oscar_API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddMediatR(typeof(SelectMoviesCommand).Assembly);
+            services.AddMediatR(typeof(SelectMovieCommand).Assembly);
             services.Inject();
         }
 

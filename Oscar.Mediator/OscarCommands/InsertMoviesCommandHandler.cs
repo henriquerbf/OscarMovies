@@ -1,6 +1,6 @@
 ﻿using MediatR;
+using Oscar.Domain.Interfaces;
 using Oscar.Domain.Models;
-using Oscar.Mediator.Models;
 using Oscar.Services;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Oscar.Mediator.Commands
+namespace Oscar.Mediator.OscarCommands
 {
     public class InsertMoviesCommandHandler : IRequestHandler<InsertMoviesCommand, Unit>
     {
@@ -28,7 +28,7 @@ namespace Oscar.Mediator.Commands
                 Name = "Marvel"
             };
 
-            foreach (var item in request.jsonMovies)
+            foreach (var item in request.JsonMovies)
             {
                 movies.Add(new Movie
                 {

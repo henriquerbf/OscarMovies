@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Oscar.Domain.Interfaces;
 using Oscar.Domain.Models;
 using Oscar.Services;
 using System;
@@ -7,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Oscar.Mediator.Commands
+namespace Oscar.Mediator.OscarCommands
 {
     public class SelectMoviesCommandHandler : IRequestHandler<SelectMoviesCommand, Movie>
     {
